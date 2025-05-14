@@ -39,9 +39,9 @@ function App() {
   return (
     <>
       <Header />
-      <body>
+      <div className="container d-flex flex-wrap">
         <Form formData={formData} handleChange={handleChange} handleSubmit={handleSubmit} />
-      </body>
+      </div>
       <Footer />
     </>
   )

@@ -3,7 +3,34 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #CAE1F4;
+    color: #9B948A;
+}
+
+hr {
+    border: 1px solid #9B948A;
+    margin: 20px 0;
+    width: 100%;
+}
+
+/* layout */
+.col-100 {
+    width: 100%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.gap {
+    gap: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 /* HEADER */
@@ -13,6 +40,7 @@ header {
     align-items: center;
     padding: 15px;
     background-color: #010307;
+    border-bottom: 1px solid #9B948A;
 }
 
 /* left header */
@@ -23,10 +51,9 @@ header {
 
 .left-header button {
     background-color: #010307;
-    border: 1px solid #CAE1F4;
+    border: 1px solid #9B948A;
     border-radius: 5px;
     padding: 5px 10px;
-    color: #CAE1F4;
     cursor: pointer;
 }
 
@@ -48,19 +75,17 @@ header {
 
 .right-header input[type="text"] {
     background-color: #010307;
-    border: 1px solid #CAE1F4;
+    border: 1px solid #9B948A;
     border-radius: 5px;
     padding: 5px 10px;
-    color: #CAE1F4;
 }
 
 .right-header button {
     margin-left: 10px;
     background-color: #010307;
-    border: 1px solid #CAE1F4;
+    border: 1px solid #9B948A;
     border-radius: 5px;
     padding: 5px;
-    color: #CAE1F4;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -79,7 +104,6 @@ header {
 
 .right-header button i {
     font-size: 16px;
-    color: #CAE1F4;
 }
 
 .profile {
@@ -98,6 +122,50 @@ header {
 
 
 /* BODY */
-body {
-    background-color: darkgray;
+.container {
+    background-color: #0A0E12;
+    padding: 30px 0;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/* form */
+.form-container {
+    width: 700px;
+}
+
+form>div {
+    width: 100%;
+    padding: 20px 0;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #9B948A;
+    border-radius: 5px;
+    background-color: #010307;
+    color: #9B948A;
+    margin-top: 5px;
+}
+
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #9B948A;
+    border-radius: 5px;
+    background-color: #010307;
+    color: #9B948A;
+    margin-top: 5px;
+
+}
+
+/* colors */
+.white-text {
+    color: #CAE1F4 !important;
+}
+
+.green-text {
+    color: #1C6B2B !important;
 }

@@ -16,7 +16,7 @@ const Header = () => {
                         <img src={githubLogo} alt="Github" />
                     </div>
                     <span>
-                        <b>New repository</b>
+                        <b className='white-text'>New repository</b>
                     </span>
                 </div>
 
