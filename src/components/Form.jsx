@@ -7,17 +7,17 @@ const Form = ({ formData, handleChange, handleSubmit }) => {
 
                 <div className='form-header'>
                     <h2 className='white-text'>Create a new repository</h2>
-                    <p>
+                    <p className='description'>
                         A repository contains all project files, including the revision history. Already have a project repository elsewhere?
-                        <span className='link'>
+                        <a href='#' className='link'>
                             Import a repository.
-                        </span>
+                        </a>
                     </p>
                 </div>
                 <hr />
                 <form action="" className='d-flex flex-wrap'>
 
-                    <p><em className='white-text'>Required fields are marked with an asterisk (*).</em></p>
+                    <p className='description'><em className='white-text'>Required fields are marked with an asterisk (*).</em></p>
 
                     {/* author and title */}
                     <div className='d-flex col-100 gap'>
@@ -32,7 +32,7 @@ const Form = ({ formData, handleChange, handleSubmit }) => {
                         </div>
                     </div>
 
-                    <p className='white-text'>Great repository names are short and memorable. Need inspiration? How about <b className='green-text'>urban-barnacles</b> ?</p>
+                    <p className='description white-text'>Great repository names are short and memorable. Need inspiration? How about <b className='green-text'>urban-barnacles</b> ?</p>
 
                     <hr />
 
@@ -54,13 +54,13 @@ const Form = ({ formData, handleChange, handleSubmit }) => {
                                 Public
                             </span>
                             <br />
-                            Anyone on the internet can see this repository. You choose who can commit.
+                            <span className='description'>Anyone on the internet can see this repository. You choose who can commit.</span>
                         </label>
                     </div>
 
                     <hr />
 
-                    <p>
+                    <p className='description'>
                         <i class="fa-solid fa-circle-exclamation"></i>
                         This page is only made for educational purposes.
                         I have no affiliation with Github. This is just a test page to show how the form looks like.

@@ -37,8 +37,8 @@ const Header = () => {
                     {/* | */}
 
                     <button className='new-btn'>
-                        <div>
-                            +
+                        <div className='plus'>
+                            <i class="fa-solid fa-plus"></i>
                         </div>
                         <div>
                             &#128899;
