@@ -6,10 +6,12 @@
     color: #9B948A;
 }
 
+
 hr {
     border: 1px solid #9B948A;
-    margin: 20px 0;
+    margin: 20px 0 10px 0;
     width: 100%;
+    opacity: 0.8;
 }
 
 /* layout */
@@ -127,7 +129,7 @@ header {
     padding: 30px 0;
     margin: 0 auto;
     justify-content: center;
-    align-items: center;
+    height: 80vh;
 }
 
 /* form */
@@ -161,11 +163,41 @@ form textarea {
 
 }
 
+/* checkbox area */
+.checkbox-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-area input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* submit area */
+.submit-area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.submit-area button {
+    background-color: #1c7a2d;
+    font-weight: bold;
+    color: #CAE1F4;
+    border: 1px solid #9B948A;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
 /* colors */
 .white-text {
     color: #CAE1F4 !important;
 }
 
 .green-text {
-    color: #1C6B2B !important;
+    color: #1c7a2d !important;
 }
