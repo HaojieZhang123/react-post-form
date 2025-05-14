@@ -39,7 +39,9 @@ function App() {
   return (
     <>
       <Header />
-      <Form formData={formData} handleChange={handleChange} handleSubmit={handleSubmit} />
+      <body>
+        <Form formData={formData} handleChange={handleChange} handleSubmit={handleSubmit} />
+      </body>
       <Footer />
     </>
   )
